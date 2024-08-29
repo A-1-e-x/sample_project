@@ -37,18 +37,17 @@ class _LoginScreenState extends State<LoginScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor:
-          Color.fromARGB(255, 241, 234, 255), // Light background color
+      backgroundColor: Color.fromARGB(255, 241, 234, 255),
       appBar: AppBar(
           automaticallyImplyLeading: false,
-          backgroundColor: Color.fromARGB(255, 202, 142, 255), // AppBar color
+          backgroundColor: Color.fromARGB(255, 202, 142, 255),
           title: Text(
             'LoGrO',
             style: TextStyle(
               fontSize: 50,
               fontWeight: FontWeight.bold,
               fontStyle: FontStyle.italic,
-              color: Color.fromARGB(255, 255, 255, 255), // App title color
+              color: Color.fromARGB(255, 255, 255, 255),
             ),
           ),
           centerTitle: true),
@@ -60,7 +59,7 @@ class _LoginScreenState extends State<LoginScreen> {
             Icon(
               Icons.task_alt,
               size: 80,
-              color: Color.fromARGB(255, 63, 0, 158), // Icon color
+              color: Color.fromARGB(255, 63, 0, 158),
             ),
             SizedBox(height: 20),
             Text(
@@ -68,7 +67,7 @@ class _LoginScreenState extends State<LoginScreen> {
               style: TextStyle(
                 fontSize: 36,
                 fontWeight: FontWeight.bold,
-                color: Color.fromARGB(255, 63, 0, 158), // Login text color
+                color: Color.fromARGB(255, 63, 0, 158),
               ),
             ),
             SizedBox(height: 20),
@@ -82,8 +81,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12.0),
                   ),
-                  fillColor: Color.fromARGB(
-                      255, 241, 234, 255), // TextField background color
+                  fillColor: Color.fromARGB(255, 241, 234, 255),
                   filled: true,
                 ),
               ),
@@ -110,8 +108,7 @@ class _LoginScreenState extends State<LoginScreen> {
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12.0),
                   ),
-                  fillColor: Color.fromARGB(
-                      255, 241, 234, 255), // TextField background color
+                  fillColor: Color.fromARGB(255, 241, 234, 255),
                   filled: true,
                 ),
               ),
@@ -144,7 +141,7 @@ class _LoginScreenState extends State<LoginScreen> {
               ),
               style: ButtonStyle(
                 backgroundColor: MaterialStateProperty.all(
-                    Color.fromARGB(255, 208, 162, 247)), // Button color
+                    Color.fromARGB(255, 208, 162, 247)),
                 padding: MaterialStateProperty.all(
                   EdgeInsets.symmetric(vertical: 16.0, horizontal: 32.0),
                 ),

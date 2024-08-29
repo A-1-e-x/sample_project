@@ -16,9 +16,8 @@ Future<Locale> _loadLocale() async {
     final String? languageCode = prefs.getString('language');
     return Locale(languageCode ?? 'en');
   } catch (e) {
-    // Log the error or handle it as needed
     print('Error loading locale: $e');
-    return Locale('en'); // Fallback to default locale in case of error
+    return Locale('en');
   }
 }
 

@@ -13,7 +13,7 @@ class Settings extends StatelessWidget {
       appBar: AppBar(
         title:
             Text('Settings'.tr, style: TextStyle(fontWeight: FontWeight.bold)),
-        backgroundColor: Color.fromARGB(255, 208, 162, 247), // AppBar color
+        backgroundColor: Color.fromARGB(255, 208, 162, 247),
       ),
       body: ListView(
         children: [
@@ -28,8 +28,7 @@ class Settings extends StatelessWidget {
               style:
                   TextStyle(fontWeight: FontWeight.bold, color: Colors.black),
             ),
-            tileColor:
-                Color.fromARGB(255, 241, 234, 255), // Tile background color
+            tileColor: Color.fromARGB(255, 241, 234, 255),
             onTap: () {
               _showLanguageDialog(context);
             },
@@ -45,8 +44,7 @@ class Settings extends StatelessWidget {
               style:
                   TextStyle(fontWeight: FontWeight.bold, color: Colors.black),
             ),
-            tileColor:
-                Color.fromARGB(255, 241, 234, 255), // Tile background color
+            tileColor: Color.fromARGB(255, 241, 234, 255),
             onTap: () {
               _logout(context);
             },

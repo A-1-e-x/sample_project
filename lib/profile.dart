@@ -50,12 +50,11 @@ class _ProfilePageState extends State<ProfilePage> {
                 controller: _usernameController,
                 decoration: InputDecoration(
                   labelText: 'Username'.tr,
-                  labelStyle: TextStyle(color: Colors.black), // Label color
+                  labelStyle: TextStyle(color: Colors.black),
                   filled: true,
-                  fillColor:
-                      Color.fromARGB(255, 229, 212, 255), // Background color
+                  fillColor: Color.fromARGB(255, 229, 212, 255),
                   border: OutlineInputBorder(
-                    borderRadius: BorderRadius.circular(10), // Rounded borders
+                    borderRadius: BorderRadius.circular(10),
                   ),
                   enabledBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
@@ -65,12 +64,11 @@ class _ProfilePageState extends State<ProfilePage> {
                   ),
                   focusedBorder: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
-                    borderSide: BorderSide(
-                        color: Color.fromARGB(
-                            255, 208, 162, 247)), // Focused border color
+                    borderSide:
+                        BorderSide(color: Color.fromARGB(255, 208, 162, 247)),
                   ),
                 ),
-                style: TextStyle(color: Colors.black), // Text color
+                style: TextStyle(color: Colors.black),
                 validator: (value) {
                   if (value == null || value.isEmpty) {
                     return 'Please enter a new username'.tr;
@@ -85,8 +83,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   labelText: 'New Password'.tr,
                   labelStyle: TextStyle(color: Colors.black),
                   filled: true,
-                  fillColor:
-                      Color.fromARGB(255, 229, 212, 255), // Background color
+                  fillColor: Color.fromARGB(255, 229, 212, 255),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
@@ -117,8 +114,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   labelText: 'Confirm Password'.tr,
                   labelStyle: TextStyle(color: Colors.black),
                   filled: true,
-                  fillColor:
-                      Color.fromARGB(255, 229, 212, 255), // Background color
+                  fillColor: Color.fromARGB(255, 229, 212, 255),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(10),
                   ),
@@ -151,7 +147,7 @@ class _ProfilePageState extends State<ProfilePage> {
                   foregroundColor: Colors.black,
                   padding: EdgeInsets.symmetric(vertical: 14, horizontal: 24),
                   shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(10), // Rounded corners
+                    borderRadius: BorderRadius.circular(10),
                   ),
                 ),
               ),

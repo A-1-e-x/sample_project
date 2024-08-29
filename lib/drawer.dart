@@ -138,7 +138,7 @@ class _CustomDrawerState extends State<CustomDrawer> {
           ),
           Divider(
             thickness: 1,
-            color: Color.fromARGB(255, 220, 191, 255), // Updated divider color
+            color: Color.fromARGB(255, 220, 191, 255),
             height: 2,
           ),
         ],

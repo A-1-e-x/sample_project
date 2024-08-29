@@ -165,7 +165,7 @@ class _HomeState extends State<Home> {
       floatingActionButton: FloatingActionButton(
         onPressed: createNewTask,
         child: Icon(Icons.add, color: Colors.black),
-        backgroundColor: Color.fromARGB(255, 220, 191, 255), // Button color
+        backgroundColor: Color.fromARGB(255, 220, 191, 255), 
         elevation: 5.0,
       ),
       body: Padding(
@@ -182,7 +182,7 @@ class _HomeState extends State<Home> {
                       child: Text(
                         'No tasks available'.tr,
                         style: TextStyle(
-                          color: Color.fromARGB(255, 62, 0, 116), // Text color when no tasks
+                          color: Color.fromARGB(255, 62, 0, 116), 
                           fontSize: 24,
                           fontWeight: FontWeight.bold,
                         ),
@@ -228,7 +228,7 @@ class _HomeState extends State<Home> {
     return Container(
       width: double.infinity,
       decoration: BoxDecoration(
-        color: Color.fromARGB(255, 229, 212, 255), // Search box background color
+        color: Color.fromARGB(255, 229, 212, 255), 
         borderRadius: BorderRadius.circular(20),
       ),
       child: TextField(
